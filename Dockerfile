@@ -58,3 +58,5 @@ RUN pecl install phpunit/test_helpers
 #ADD sql_install /tmp
 #RUN chmod u+x /tmp/sqlInstall.sh
 #RUN /tmp/sqlInstall.sh
+
+EXPOSE 3000
